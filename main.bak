@@ -21,6 +21,6 @@
         ((= newdelta delta) (values    delta (cons c res)))
         (else               (values    delta res))))))
 
-
- (let-values (((delta res) (knapsack (cdr (range 0 24 5)))))
-   (printf "result: ~a\ndelta : ~a\n" res delta))
+(time 
+ (let-values (((delta res) (knapsack (cdr (range 0 24 3)))))
+   (printf "result: ~a\ndelta : ~a\n" res delta)))
