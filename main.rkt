@@ -92,7 +92,7 @@
 
 (recorrer lista)
 
-;funcion para saber el lenght de una lista
+;funcion para saber el length de una lista
 ( define ( longitud L )
  ( cond
  [( empty? L ) 0]
