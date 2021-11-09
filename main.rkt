@@ -6,7 +6,6 @@
 (define caracteristica '(30 60 90))
 (define individuo '(((2 6 2) 10) ((9 5 1 1 5) 21) ((3 31 15) 49) ((12 32) 44)))
 
-
 ;*************** Funciones ***************
 
 ; Sumna la lista y da un valor
@@ -125,6 +124,23 @@
 )
 
 ;(cdaar (primeraGeneracion 4 banco 4))
-
-;(primeraGeneracion 4 banco 4)
-;(quicksort (primeraGeneracion 4 banco 4) banco )
+(print "INICIO")
+(newline)
+(print "================================================== ==================================================")
+(newline)
+(print "GENERACION INICIAL")
+(newline)
+(print "====================================================================================================")
+(newline)
+(primeraGeneracion 4 banco 4)
+(print "====================================================================================================")
+(newline)
+(print "Individuo  optimo es: ")
+(newline)
+(quicksort (primeraGeneracion 4 banco 4) banco )
+(print "================================================== ==================================================")
+(newline)
+(print "FINAL")
+(newline)
+(print "================================================== ")
+(newline)
